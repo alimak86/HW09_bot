@@ -103,7 +103,7 @@ PROCESS = { ADD_CMD: add_process,\
             CHANGE_CMD: change_process,\
             PHONE_CMD: phone_process
            }
-
+## decorator for each command
 def input_error(command_func):
     def inner(list):
         corrected_list = []
